@@ -3,7 +3,7 @@ RIFT - Reddit Information Falsity Tagger
 
 
 **Initial setup:**
-1) Make sure the related TSV files (fakeddit dataset) are setup on your system.
+1) Make sure the related TSV files (fakeddit dataset - https://github.com/entitize/Fakeddit) are setup on your system. Create a folder for dataset and save all TSV files there.
 2) Create a Reddit account and request for API access, you will need ClientID, ClientSecret and UserAgent information.
 3) Setup Neo4J on your system. Create a new project and start a database. You will require Neo4J URI, User and Password.
 4) Create a config.py (preferably in the same folder as code). Declare variables CLIENT_ID, CLIENT_SECRET, USER_AGENT, NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, DATASET_FOLDER.
